@@ -21,13 +21,10 @@ def do_python_cmd(path):
     for root, dirs, files in os.walk(path):
         for filename in files:
             if filename.endswith(".py"):
-                if not filename == 'csv2lua_func.py':
-                    os.system('python ' + os.path.join(root,filename))
-                    print('python ' + filename)
-                else:
-                    print('csv2lua_func.py is used by other .py files')
+                os.system('python ' + os.path.join(root,filename))
+                print('python ' + filename)
             else:
-                print('files not found')
+                print(filename + ' not found')
 
 if __name__ == '__main__':
     if check_path(PY_DIR) and check_path(CSV_DIR) and check_path(LUA_DIR):

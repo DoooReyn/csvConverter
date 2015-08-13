@@ -1,0 +1,73 @@
+local data = {
+	[45104] =  {
+		id = 45104,
+		name = "a1",
+		sub_name = "a4",
+		des = "a5",
+		vip = 5,
+		cost = 1000,
+		worth = 10000,
+		target = {
+			{ condition = 0,rewardid = 55090, },
+			{ condition = 10,rewardid = 55036, },
+			{ condition = 20,rewardid = 55037, },
+			{ condition = 30,rewardid = 55038, },
+			{ condition = 40,rewardid = 55039, },
+			{ condition = 50,rewardid = 55040, },
+			{ condition = 60,rewardid = 55041, },
+			{ condition = 65,rewardid = 55042, },
+			{ condition = 70,rewardid = 55043, },
+			{ condition = 75,rewardid = 55044, },
+			{ condition = 80,rewardid = 55045, },
+		},
+	},
+
+	[45105] =  {
+		id = 45105,
+		name = "a2",
+		sub_name = "a4",
+		des = "a6",
+		vip = 5,
+		cost = 2000,
+		worth = 40000,
+		target = {
+			{ condition = 0,rewardid = 55091, },
+			{ condition = 6,rewardid = 55046, },
+			{ condition = 8,rewardid = 55047, },
+			{ condition = 10,rewardid = 55048, },
+			{ condition = 12,rewardid = 55049, },
+			{ condition = 14,rewardid = 55050, },
+			{ condition = 16,rewardid = 55051, },
+			{ condition = 17,rewardid = 55052, },
+			{ condition = 18,rewardid = 55053, },
+			{ condition = 19,rewardid = 55054, },
+			{ condition = 20,rewardid = 55055, },
+		},
+	},
+
+	[45106] =  {
+		id = 45106,
+		name = "a3",
+		sub_name = "a4",
+		des = "a7",
+		vip = 7,
+		cost = 3000,
+		worth = 90000,
+		target = {
+			{ condition = 0,rewardid = 55092, },
+			{ condition = 1,rewardid = 55056, },
+			{ condition = 2,rewardid = 55057, },
+			{ condition = 3,rewardid = 55058, },
+			{ condition = 4,rewardid = 55059, },
+			{ condition = 5,rewardid = 55060, },
+			{ condition = 6,rewardid = 55061, },
+			{ condition = 7,rewardid = 55086, },
+			{ condition = 8,rewardid = 55087, },
+			{ condition = 9,rewardid = 55088, },
+			{ condition = 10,rewardid = 55089, },
+		},
+	},
+
+}
+
+return data
